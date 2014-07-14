@@ -30,7 +30,7 @@ Setting Java environment variables :
 ```
 sudo apt-get install oracle-java8-set-default
 ```
-#If you've already installed oracle-java6-set-default or oracle-java7-set-default, they will be automatically removed when installing oracle-java8-set-default (and the environment variables will be set for Oracle Java 8 instead).
+###If you've already installed oracle-java6-set-default or oracle-java7-set-default, they will be automatically removed when installing oracle-java8-set-default (and the environment variables will be set for Oracle Java 8 instead).
 
 [Setting up a Device for Development][3]
 =============================
