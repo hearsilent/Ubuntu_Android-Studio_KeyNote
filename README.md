@@ -30,7 +30,7 @@ Setting Java environment variables :
 ```
 sudo apt-get install oracle-java8-set-default
 ```
-###If you've already installed oracle-java6-set-default or oracle-java7-set-default, they will be automatically removed when installing oracle-java8-set-default (and the environment variables will be set for Oracle Java 8 instead).
+####If you've already installed oracle-java6-set-default or oracle-java7-set-default, they will be automatically removed when installing oracle-java8-set-default (and the environment variables will be set for Oracle Java 8 instead).
 
 [Setting up a Device for Development][3]
 =============================
@@ -54,7 +54,7 @@ b.Now execute :
 chmod a+r /etc/udev/rules.d/51-android.rules
 ```
 
-idVendor List
+[idVendor List][4]
 =============================
 ```
 // Acer's USB Vendor ID
@@ -218,3 +218,4 @@ idVendor List
 [1]: https://developer.android.com/sdk/installing/studio.html
 [2]: http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
 [3]: http://developer.android.com/tools/device.html#setting-up
+[4]: https://android.googlesource.com/platform/system/core/+/master/adb/usb_vendors.c
